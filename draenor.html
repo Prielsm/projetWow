@@ -32,9 +32,6 @@
 
             <a href="serre_vide_tomtom.txt">Références Tomtom</a>
 
-            <span>
-               
-            </span>
 
         </section>
         <br><br><br><br>
@@ -50,9 +47,10 @@
         <section class="sectionDraenor">
             <a name="exploDraenor">Exploration de Draenor</a> <br><br>
 
-            <select name="Tutos" id="">
-                <option value= "#ombrelune">Exploration de la Crête de Givrefeu</option>
-                <option value="">Exploration de Gorgrond</option>
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" name ="Tutos" id="">
+                <option value="">Choisir monde</option>
+                <option value="#ombrelune"> Exploration de la Crête de Givrefeu</option>
+                <option value="#secuDraenor">Exploration de Gorgrond</option>
                 <option value="">Exploration des Flèches d'Arak</option>
                 <option value="">Exploration de la vallée d'Ombrelune</option>
                 <option value="">Exploration de Talador</option>
@@ -74,7 +72,7 @@
         <br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br>
 
-        <script>
+        <!--<script>
             function redirect() {
                 var select = document.getElementById("selectSectionDr");
                 var valueSelected = select.options[select.selectedIndex].value;
@@ -89,7 +87,7 @@
             <option value="#secuDraenor">SecuDreanor</option>
             <option value="#diploTanaan">DiploTanaan</option>
         </select> 
-        <button type="button" onclick="redirect()">Explore!</button>
+        <button type="button" onclick="redirect()">Explore!</button>-->
 
 
 
