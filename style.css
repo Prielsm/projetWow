@@ -9,6 +9,13 @@ body {
 a {
   text-decoration: none;
   color: palevioletred;
+
+}
+
+a:hover {
+  box-shadow: 0px 0px 10px 1.5px red;
+  padding: 5px;
+
 }
 
 .bodyDraenor {
