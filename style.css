@@ -4,27 +4,34 @@ body {
   background-size: cover;
   color: palevioletred;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px;
 }
 
 a {
   text-decoration: none;
   color: palevioletred;
-
 }
 
 a:hover {
   box-shadow: 0px 0px 10px 1.5px red;
   padding: 5px;
+}
 
+img {
+  width: 600px;
 }
 
 .bodyDraenor {
-  background-image: url(pastel.jpg);
+  background-image: url(images/pastel2.png);
 }
 
 .bodyIndex {
-  background-image: url(azsuna.jpg);
+  background-image: url(images/azsuna.jpg);
   background-repeat: no-repeat;
+}
+
+.bodyIndex header {
+  font-family: "JBCursive-V3";
 }
 
 .sectionIndex {
@@ -32,12 +39,14 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.25);
   text-align: left;
   padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: larger;
 }
 
 .sectionDraenor {
-  background-color: rgba(255, 255, 255, 0.25);
-  box-shadow: 0px 0px 10px 1.5px white;
-
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px 1.5px palevioletred;
   padding: 10px;
 }
 
@@ -52,4 +61,77 @@ header {
   color: white;
   padding: 20px;
   border-radius: 20px;
+  font-weight: bolder;
+}
+
+.carte_draenor {
+  box-shadow: 0px 0px 50px 10px white;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  color: black;
+}
+
+.img_petite {
+  width: 200px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 1.5px palevioletred;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reput {
+  width: 25%;
+  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  height: auto;
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex a {
+  padding: 10px;
+}
+
+.d-flex div {
+  padding: 10px;
+}
+
+.fleche {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  font-size: 50px;
+  position: fixed;
+}
+
+.fleche a {
+  box-shadow: none;
+}
+
+.menu a {
+  box-shadow: none;
+}
+
+footer .d-flex a {
+  box-shadow: none;
+}
+
+footer .d-flex a:hover {
+  text-decoration: underline;
+}
+
+.removeShadow a {
+  box-shadow: none;
 }
