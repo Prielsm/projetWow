@@ -2,18 +2,18 @@ body {
   display: block;
   text-align: center;
   background-size: cover;
-  color: palevioletred;
+  color: indianred;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 100px;
 }
 
 a {
   text-decoration: none;
-  color: palevioletred;
+  color: indianred;
 }
 
 a:hover {
-  box-shadow: 0px 0px 10px 1.5px red;
+  box-shadow: 0px 0px 10px 1.5px indianred;
   padding: 5px;
 }
 
@@ -22,12 +22,13 @@ img {
 }
 
 .bodyDraenor {
-  background-image: url(images/pastel2.png);
+  background-image: url(images/pastel2.0.png);
 }
 
 .bodyIndex {
   background-image: url(images/azsuna.jpg);
   background-repeat: no-repeat;
+  color: palevioletred;
 }
 
 .bodyIndex header {
@@ -42,11 +43,12 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: larger;
+  border-radius: 20px;
 }
 
 .sectionDraenor {
   background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  box-shadow: 0px 0px 10px 1.5px indianred;
   padding: 10px;
 }
 
@@ -62,6 +64,7 @@ header {
   padding: 20px;
   border-radius: 20px;
   font-weight: bolder;
+  text-shadow: 1px 1px 20px white;
 }
 
 .carte_draenor {
@@ -91,7 +94,7 @@ header {
 .img_petite {
   width: 200px;
   border-radius: 100%;
-  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  box-shadow: 0px 0px 10px 1.5px indianred;
 }
 
 nav {
@@ -101,7 +104,7 @@ nav {
 
 .reput {
   width: 25%;
-  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  box-shadow: 0px 0px 10px 1.5px indianred;
   height: auto;
   padding: 20px;
 }
@@ -150,4 +153,8 @@ footer .d-flex a:hover {
 .secuDraenor {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.bodyIndex a:hover {
+  box-shadow: 0px 0px 10px 1.5px crimson;
 }
