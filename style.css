@@ -74,7 +74,9 @@ header {
   top: 0;
   padding: 15px;
   box-shadow: 0px 0px 10px 1.5px palevioletred;
-  color: black;
+  position: fixed;
+  width: 100%;
+  background-color: ghostwhite;
 }
 
 .img_petite {
@@ -134,4 +136,9 @@ footer .d-flex a:hover {
 
 .removeShadow a {
   box-shadow: none;
+}
+
+.secuDraenor {
+  padding-left: 50px;
+  padding-right: 50px;
 }
