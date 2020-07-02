@@ -110,7 +110,7 @@ nav {
 
 .fleche {
   position: absolute;
-  left: 3%;
+  left: 20px;
   top: 50%;
   font-size: 50px;
   position: fixed;
