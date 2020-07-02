@@ -73,10 +73,19 @@ header {
   right: 0;
   top: 0;
   padding: 15px;
-  box-shadow: 0px 0px 10px 1.5px palevioletred;
+  box-shadow: 0px 0px 10px 1.5px grey;
+
   position: fixed;
   width: 100%;
-  background-color: ghostwhite;
+  background-image: url(images/pastel2.png);
+  background-size: contain;
+}
+
+.menu a {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px black;
+  font-size: larger;
 }
 
 .img_petite {
