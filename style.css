@@ -172,28 +172,34 @@ footer .d-flex a:hover {
 
 /* Style page skins */
 
-.body_skins header {
+.body_skins header,
+.header_donjons {
   color: black;
   border-bottom: 2px solid black;
 }
 
-.body_skins {
+.body_skins,
+.body_donjons {
   padding: 20px;
   padding-right: 50px;
   padding-left: 50px;
   margin: 0;
+  color: black;
 }
 
-.header_skins {
+.header_skins,
+.header_donjons {
   align-items: center;
   justify-content: space-between;
 }
 
-.body_skins a:hover {
+.body_skins a:hover,
+.body_donjons a:hover {
   box-shadow: none;
 }
 
-.main_skins section {
+.main_skins section,
+.main_donjons section {
   margin: 100px;
   box-shadow: 0px 0px 3px 0.5px black;
   padding: 50px;
