@@ -19,6 +19,7 @@ a:hover {
 
 img {
   width: 600px;
+  border: 2px solid lightgray;
 }
 
 .bodyDraenor {
@@ -50,13 +51,16 @@ img {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 10px 1.5px indianred;
   padding: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .lienIndex {
   color: black;
 }
 
-header {
+.bodyIndex header,
+.bodyDraenor header {
   font-size: xx-large;
   box-shadow: 0px 0px 10px 1.5px white;
   border: 1px solid white;
@@ -69,6 +73,7 @@ header {
 
 .carte_draenor {
   box-shadow: 0px 0px 50px 10px white;
+  border: none;
 }
 
 .menu {
@@ -163,4 +168,37 @@ footer .d-flex a:hover {
   border-bottom: 2px solid indianred;
   width: auto;
   padding-bottom: 20px;
+}
+
+/* Style page skins */
+
+.body_skins header {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.body_skins {
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.header_skins {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body_skins a:hover {
+  box-shadow: none;
+}
+
+.main_skins section {
+  margin: 100px;
+  box-shadow: 0px 0px 3px 0.5px black;
+  padding: 50px;
+}
+
+.main_skins img {
+  width: 400px;
 }
