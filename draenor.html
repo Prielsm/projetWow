@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,6 +32,9 @@
 
             <a href="serre_vide_tomtom.txt">Références Tomtom</a>
 
+            <span>
+               
+            </span>
 
         </section>
         <br><br><br><br>
@@ -41,16 +44,27 @@
         <section class="sectionDraenor">
             <h1>Les pets :</h1> 
         </section>
-
-        <div style="padding:50px">Test</div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
 
         <section class="sectionDraenor">
             <a name="exploDraenor">Exploration de Draenor</a> <br><br>
 
-            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" name ="Tutos" id="">
-                <option value="">Choisir monde</option>
-                <option value="#ombrelune"> Exploration de la Crête de Givrefeu</option>
-                <option value="#secuDraenor">Exploration de Gorgrond</option>
+            <select name="Tutos" id="">
+                <option value= ""><a href="#ombrelune">Exploration de la Crête de Givrefeu</a> </option>
+                <option value="">Exploration de Gorgrond</option>
                 <option value="">Exploration des Flèches d'Arak</option>
                 <option value="">Exploration de la vallée d'Ombrelune</option>
                 <option value="">Exploration de Talador</option>
@@ -72,22 +86,15 @@
         <br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br>
 
-        <!--<script>
-            function redirect() {
-                var select = document.getElementById("selectSectionDr");
-                var valueSelected = select.options[select.selectedIndex].value;
-
-                window.location.href = valueSelected;
-            }
-        </script>
-
-        <label for="selectSectionDr">Options:</label>
-        <select id="selectSectionDr">
-            <option value="#ombrelune">Ombrelune</option>
-            <option value="#secuDraenor">SecuDreanor</option>
-            <option value="#diploTanaan">DiploTanaan</option>
-        </select> 
-        <button type="button" onclick="redirect()">Explore!</button>-->
+        <form action="#ombrelune" method="post">
+            <label for="action">Options:</label>
+            <select name="action" id="action">
+              <option value="help">Help</option>
+              <option value="reset">Reset</option>
+              <option value="submit">Submit</option>
+            </select> 
+            <button type="submit" name="submit" value="submit">Do It </button>
+          </form> 
 
 
 
