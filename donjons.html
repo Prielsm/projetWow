@@ -1,23 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donjons/Raid</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="body_donjons">
-    <header class="header_donjons d-flex">
-        <div>DONJONS/RAIDS</div>
-        <div><a href="index.html">Retour menu</a></div>
-        
-    </header>
-    <main class="main_donjons">
-        <section>
-            Citadelle de la couronne de glace
-            <a href="https://fr.wowhead.com/zones/instances">Liste donjon</a>
-        </section>
-    </main>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fonts/Saudagar/stylesheet.css" />
+    <link rel="stylesheet" href="style_donjon.css" />
+    <script>
+      const whTooltips = {
+        colorLinks: true,
+        iconizeLinks: true,
+        renameLinks: false,
+      };
+    </script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+  </head>
+
+  <body class="body_donjons">
+    <!-- Menu -->
+    <div class="menu">
+      <h1>Menu</h1>
+      <!-- Donjon de la tempête -->
+      <p>Donjon de la tempête:</p>
+      <ul>
+        <li><a
+          href="#cendres_alar"
+          data-wowhead="item=32458"
+          >Cendres d'Al'ar</a</li>
+        <li><a href="#jeune_faucon_phenix"
+          data-wowhead="item=97557"
+          >Jeune faucon-phénix</a></li>
+        <li>
+          <a href="#saccageur_de_poche"
+          data-wowhead="item=97555"
+          >Saccageur de poche</a>
+        </li>
+        <li>
+          <a href="#implorateur_du_vide"
+          data-wowhead="item=97556"
+          >Implorateur du Vide inférieur</a>
+        </li>
+        <li>
+          <a href="#baton_ethereum"
+          data-wowhead="item=29981"
+          >Bâton de vie de l'Ethereum</a>
+        </li>
+        <li>
+          <a href="#tranchecoeur"
+          data-wowhead="item=29962"
+          >Tranchecoeur</a>
+        </li>
+      </ul>
+
+      <!-- Salles Sethekk -->
+      <p>Les salles de Sethekk</p>
+      <ul>
+        <li>
+          <a href="#renes_seigneur_corbeau"
+          data-wowhead="item=32768"
+          >Rênes du seigneur corbeau</a>
+        </li>
+        <li>
+          <a href="#espingole"
+          data-wowhead="item=32780"
+          >L'Espingole</a>
+        </li>
+        <li>
+          <a href="#batombre_terokk"
+          data-wowhead="item=29355"
+          >Bâtombre de Terokk</a>
+        </li>
+      </ul>
+
+    </div>
     
-</body>
+    <!-- barre d'info -->
+    <header class="header_donjons d-flex">
+      <span>DONJONS/RAIDS</span>
+      <span><a href="index.html">| Retour menu |</a></span>
+    </header>
+
+    <main class="main_donjons">
+
+      <!-- section donjon de la tempête -->
+      <section class="section_donjons">
+
+        <h1>Donjon de la tempête</h1>
+        <img src="images/donjon_tempete.jpg" alt="" />
+        <p>Raz-de-Néant | OUTRETERRE</p>
+
+        <h2>Butins</h2>
+
+        <span>Kael'thas Haut-Soleil</span>
+        <a name="cendres_alar"></a>
+        <img src="images/cendres_alar.jpg" alt="" />
+        <span>Al'ar</span>
+
+        <a name="jeune_faucon_phenix"></a>
+        <img src="images/jeune_faucon_phénix.png" alt="" />
+
+        <span>Saccageur du vide</span>
+        <a name="saccageur_de_poche"></a>
+        <img src="images/saccageur_de_poche.png" alt="" />
+
+        <span>Grand astromancienne Solarian</span>
+        <a name="implorateur_du_vide"></a>
+        <img src="images/implorateur_du_vide.png" alt="" />
+
+        <a name="baton_ethereum"></a>
+        <img src="images/baton_ethereum.png" alt="" />
+        <a name="tranchecoeur"></a>
+        <img src="images/tranchecoeur.png" alt="" />
+        <a href="https://fr.wowhead.com/zones/instances">| Liste donjon |</a>
+      </section>
+
+      <!-- section salles de sethekk -->
+      <section class="section_donjons">
+
+        <h1>Les salles des Sethekk</h1>
+        <img src="images/salles_sethekk.png" alt="">
+        <p>Forêt de Terokkar | OUTRETERRE</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b1DIERrDZ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <H2>Butins</H2>
+
+        <span><strong>Anzu</strong> </span>
+        <span>Mode héroïque!</span>
+        <a name="renes_seigneur_corbeau"></a>
+        <img src="images/renes_seigneur_corbeau3.jpg" alt="">
+         <a name="espingole"></a>
+        <img src="images/espingole.png" alt="">
+
+        <span>Roi-Serre Ikiss</span>
+        <a name="batombre_terokk"></a>
+        <img src="images/batombre_terokk.png" alt="">
+
+
+      </section>
+    </main>
+  </body>
 </html>

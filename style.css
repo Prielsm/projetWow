@@ -172,14 +172,12 @@ footer .d-flex a:hover {
 
 /* Style page skins */
 
-.body_skins header,
-.header_donjons {
+.body_skins header {
   color: black;
   border-bottom: 2px solid black;
 }
 
-.body_skins,
-.body_donjons {
+.body_skins {
   padding: 20px;
   padding-right: 50px;
   padding-left: 50px;
@@ -187,19 +185,16 @@ footer .d-flex a:hover {
   color: black;
 }
 
-.header_skins,
-.header_donjons {
+.header_skins {
   align-items: center;
   justify-content: space-between;
 }
 
-.body_skins a:hover,
-.body_donjons a:hover {
+.body_skins a:hover {
   box-shadow: none;
 }
 
-.main_skins section,
-.main_donjons section {
+.main_skins section {
   margin: 100px;
   box-shadow: 0px 0px 3px 0.5px black;
   padding: 50px;
