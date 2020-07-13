@@ -1,0 +1,59 @@
+.d-flex {
+  display: flex;
+}
+
+.header_donjons {
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+.main_donjons {
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  margin-top: 20px;
+}
+
+.body_donjons {
+  background-color: lightslategrey;
+  margin: 15px;
+  font-family: "Saudagar";
+  font-size: 18px;
+}
+
+.section_donjons {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  position: absolute;
+  position: fixed;
+  top: 110px;
+  width: 330px;
+  padding: 20px;
+  padding-top: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 450px;
+  box-shadow: 0px 0px 10px 1.5px gray;
+}
