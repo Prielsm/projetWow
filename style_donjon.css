@@ -34,7 +34,7 @@
   position: absolute;
   position: fixed;
   top: 110px;
-  width: 330px;
+  width: 300px;
   padding: 20px;
   padding-top: 0;
   background-color: rgba(255, 255, 255, 0.25);
@@ -56,4 +56,29 @@ img {
   margin-top: 20px;
   width: 450px;
   box-shadow: 0px 0px 10px 1.5px gray;
+}
+
+.fleche {
+  position: absolute;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  font-size: 50px;
+}
+
+.butins {
+  align-items: center;
+  justify-content: center;
+}
+
+.butins h2 {
+  margin-left: 20px;
+}
+
+.coins {
+  font-size: 20px;
+}
+
+.hide {
+  display: none;
 }

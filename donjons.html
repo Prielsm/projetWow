@@ -23,17 +23,32 @@
   </head>
 
   <body class="body_donjons">
+    <!-- fleche du haut -->
+    <a href="#haut_page"><i class="fas fa-chevron-circle-up fleche"></i></a>
+    
+    
+
     <!-- Menu -->
     <div class="menu">
       <h1>Menu</h1>
       <!-- Donjon de la tempête -->
       <p>Donjon de la tempête:</p>
-      <ul>
-        <li><a
-          href="#cendres_alar"
+
+      <p id="demo" onclick="myFunction()">Click me.</p>
+      <script>
+        function myFunction() 
+        {
+          display:none;
+        }
+      </script>
+      <ul class="hide">
+        <li>
+          <a href="#cendres_alar"
           data-wowhead="item=32458"
-          >Cendres d'Al'ar</a</li>
-        <li><a href="#jeune_faucon_phenix"
+          >Cendres d'Al'ar</a>
+        </li>
+        <li>
+          <a href="#jeune_faucon_phenix"
           data-wowhead="item=97557"
           >Jeune faucon-phénix</a></li>
         <li>
@@ -78,13 +93,40 @@
         </li>
       </ul>
 
+      <!-- trone du tonnerre -->
+      <p>Trône du tonnerre</p>
+      <ul>
+        <li>
+          <a href="#rejeton_horridon"
+          data-wowhead="item=93666"
+          >Rejeton d'Horridon</a>
+        </li>
+        <li>
+          <a href="#couvee_ji_kun"
+          data-wowhead="item=95059"
+          >Couvée de Ji Kun</a>
+        </li>
+      </ul>
+
+      <!-- Caveaux Mogu’shan  -->
+      <p>Caveaux Mogu’shan</p>
+      <ul>
+        <li>
+          <a href="#serpent_astral"
+          data-wowhead="item=87777"
+          >Rênes du serpent-nuage astral</a>
+        </li>
+      </ul>
+
     </div>
     
     <!-- barre d'info -->
     <header class="header_donjons d-flex">
       <span>DONJONS/RAIDS</span>
+      <a name="haut_page"></a>
       <span><a href="index.html">| Retour menu |</a></span>
     </header>
+
 
     <main class="main_donjons">
 
@@ -95,21 +137,33 @@
         <img src="images/donjon_tempete.jpg" alt="" />
         <p>Raz-de-Néant | OUTRETERRE</p>
 
+        <nav class="d-flex butins">
+          <i class="fas fa-coins coins"></i>
         <h2>Butins</h2>
+        </nav>
+        
 
-        <span>Kael'thas Haut-Soleil</span>
+        <a class="boss" href="https://fr.wowhead.com/npc=19622/kael-thas-haut-soleil"
+        data-wowhead="npc=19622"
+        >Kael'thas Haut-Soleil</a>
         <a name="cendres_alar"></a>
         <img src="images/cendres_alar.jpg" alt="" />
-        <span>Al'ar</span>
-
+        
+        <a href="https://fr.wowhead.com/npc=19514/alar"
+        data-wowhead="npc=19514"
+        >Al'ar</a>
         <a name="jeune_faucon_phenix"></a>
         <img src="images/jeune_faucon_phénix.png" alt="" />
 
-        <span>Saccageur du vide</span>
+        <a href="https://fr.wowhead.com/npc=19516/saccageur-du-vide"
+        data-wowhead="npc=19516"
+        >Saccageur du vide</a>
         <a name="saccageur_de_poche"></a>
         <img src="images/saccageur_de_poche.png" alt="" />
 
-        <span>Grand astromancienne Solarian</span>
+        <a href="https://fr.wowhead.com/npc=18805/grande-astromancienne-solarian"
+        data-wowhead="npc=18805"
+        >Grande astromancienne Solarian</a>
         <a name="implorateur_du_vide"></a>
         <img src="images/implorateur_du_vide.png" alt="" />
 
@@ -128,7 +182,10 @@
         <p>Forêt de Terokkar | OUTRETERRE</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/b1DIERrDZ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <H2>Butins</H2>
+        <nav class="d-flex butins">
+          <i class="fas fa-coins coins"></i>
+        <h2>Butins</h2>
+        </nav>
 
         <span><strong>Anzu</strong> </span>
         <span>Mode héroïque!</span>
@@ -140,9 +197,55 @@
         <span>Roi-Serre Ikiss</span>
         <a name="batombre_terokk"></a>
         <img src="images/batombre_terokk.png" alt="">
+      </section>
 
+      <!-- trône du tonnerre -->
+      <section class="section_donjons">
+
+        <h1>Trône du tonnerre</h1>
+        <img src="images/trone_tonnerre.jpg" alt="">
+        <p>Île du tonnerre | PANDARIE</p>
+        <p>! Mode héroïque</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eH-8NvGL0xc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <nav class="d-flex butins">
+          <i class="fas fa-coins coins"></i>
+        <h2>Butins</h2>
+        </nav>
+
+        <span>Horridon</span>
+        <a name="rejeton_horridon"></a>
+        <img src="images/rejeton_horridon.jpg" alt="">
+
+        <span>Ji Kun</span>
+        <a name="couvee_ji_kun"></a>
+        <img src="images/couvee_jin_kun.jpg" alt="">
 
       </section>
+
+      <!-- Caveaux Mogu’shan -->
+      <section class="section_donjons">
+
+        <h1>Caveaux Mogu’shan</h1>
+        <img src="images/caveaux_mogushan.jpg" alt="">
+        <p>Val de l'éternel Printemps | PANDARIE</p>
+        <p>! Mode héroïque</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DmXR0bJFd9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <nav class="d-flex butins">
+          <i class="fas fa-coins coins"></i>
+        <h2>Butins</h2>
+        </nav>
+
+        <a href="https://fr.wowhead.com/npc=60410/elegon"
+        data-wowhead="npc=60410"
+        >Elegon</a>
+        <a name="serpent_astral"></a>
+        <img src="images/serpent_nuage_astral.jpg" alt="">
+
+      </section>
+
+
     </main>
   </body>
 </html>
