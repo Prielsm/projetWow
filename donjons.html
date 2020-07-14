@@ -34,13 +34,14 @@
       <!-- Donjon de la tempête -->
       <p>Donjon de la tempête:</p>
 
-      <p id="demo" onclick="myFunction()">Click me.</p>
+      <!-- <p id="demo" onclick="myFunction()">Click me.</p>
       <script>
         function myFunction() 
         {
           display:none;
         }
-      </script>
+      </script> -->
+      
       <ul class="hide">
         <li>
           <a href="#cendres_alar"
@@ -130,6 +131,16 @@
 
     <main class="main_donjons">
 
+
+      <!-- checkbox pour essayer le onclick -->
+      <input type="checkbox" id="btnControl"/>
+      <label class="btn" for="btnControl"><img src="https://placekitten.com/200/140" class="chat" id="btnLeft" /></label>
+
+
+
+
+
+
       <!-- section donjon de la tempête -->
       <section class="section_donjons">
 
@@ -147,8 +158,14 @@
         data-wowhead="npc=19622"
         >Kael'thas Haut-Soleil</a>
         <a name="cendres_alar"></a>
-        <img src="images/cendres_alar.jpg" alt="" />
+
+
+        <!-- onclick evenement sur l'image d'Al'al -->
+        <input type="checkbox" id="imageOnclick"/>
+        <label class="eventImageOnclick" for="imageOnclick"> <img src="images/cendres_alar.jpg" alt="" /></label>
+
         
+       
         <a href="https://fr.wowhead.com/npc=19514/alar"
         data-wowhead="npc=19514"
         >Al'ar</a>

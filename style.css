@@ -85,7 +85,7 @@ img {
 
   position: fixed;
   width: 100%;
-  background-image: url(images/pastel2.png);
+  background-image: url(images/pastel2.0.png);
   background-size: contain;
 }
 
@@ -94,6 +94,11 @@ img {
   font-weight: bolder;
   text-shadow: 1px 1px 10px black;
   font-size: larger;
+  mar
+}
+
+.input_pseudo {
+  margin-bottom:  50px;
 }
 
 .img_petite {
