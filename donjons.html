@@ -70,11 +70,14 @@
       </ul>
 
       <script>
-        btnTempete.addEventListener("click", function () {
-          if (ulTempete.style.display === "block") {
-            ulTempete.style.display = "none";
+        var btnTempeteID = document.getElementById("btnTempete");
+        var ulTempeteID = document.getElementById("ulTempete");
+
+        btnTempeteID.addEventListener("click", function () {
+          if (ulTempeteID.style.display === "block") {
+            ulTempeteID.style.display = "none";
           } else {
-            ulTempete.style.display = "block";
+            ulTempeteID.style.display = "block";
           }
         });
       </script>
@@ -106,6 +109,9 @@
       </ul>
 
       <script>
+        var btnSethekkID = document.getElementById("btnSethekk");
+        var ulSethekkID = document.getElementById("ulSethekk");
+
         btnSethekk.addEventListener("click", function () {
           if (ulSethekk.style.display === "block") {
             ulSethekk.style.display = "none";
@@ -174,11 +180,16 @@
         >
         <a name="cendres_alar"></a>
 
-        <!-- onclick evenement sur l'image d'Al'al -->
+        <!-- onclick evenement sur l'image d'Al'al
         <input type="checkbox" id="imageOnclick" />
         <label class="eventImageOnclick" for="imageOnclick">
           <img src="images/cendres_alar.jpg" alt=""
-        /></label>
+        /></label> -->
+
+        <div class="imageHide">
+          <img src="images/cendres_alar.jpg" alt="" />
+          <i class="fas fa-check-circle checkCircle"></i>
+        </div>
 
         <a href="https://fr.wowhead.com/npc=19514/alar" data-wowhead="npc=19514"
           >Al'ar</a
@@ -212,6 +223,7 @@
       <!-- section salles de sethekk -->
       <section class="section_donjons">
         <h1>Les salles des Sethekk</h1>
+        <img src="images/salles_sethekk2.png" alt="" />
         <img src="images/salles_sethekk.png" alt="" />
         <p>Forêt de Terokkar | OUTRETERRE</p>
         <iframe
@@ -228,8 +240,8 @@
           <h2>Butins</h2>
         </nav>
 
-        <span><strong>Anzu</strong> </span>
-        <span>Mode héroïque!</span>
+        <span><strong>Anzu</strong> </span> <br />
+        <p>Mode héroïque!</p>
         <a name="renes_seigneur_corbeau"></a>
         <img src="images/renes_seigneur_corbeau3.jpg" alt="" />
         <a name="espingole"></a>
