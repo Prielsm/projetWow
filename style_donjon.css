@@ -78,6 +78,19 @@ img {
   box-shadow: 0px 0px 10px 1.5px gray;
 }
 
+.imageHide {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 450px;
+  height: 350px;
+  box-shadow: 0px 0px 10px 1.5px gray;
+  background: linear-gradient(rgba(255, 255, 255, 0.25)), url(images/cendres_alar.jpg);
+  background-size: cover;
+  overflow: hidden;
+  /* display: none; */
+}
+
 /* img:active {
   box-shadow: 0px 0px 10px 1.5px green;
 } */
