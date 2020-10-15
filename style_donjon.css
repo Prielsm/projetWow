@@ -13,13 +13,15 @@
 .flecheMenu {
   color: black;
   background-color: rosybrown;
-  margin: 0;
   font-size: 20px;
   width: 20px;
+  border-radius: 50px;
 }
+
 button {
   padding: 0;
-  border-radius: 20px;
+  margin: 0;
+  border-radius: 50px;
 }
 
 .header_donjons {
@@ -28,6 +30,7 @@ button {
   background-color: rgba(255, 255, 255, 0.25);
   margin-bottom: 50px;
   font-size: larger;
+  box-shadow: 0px 0px 2px 0.5px whitesmoke;
 }
 
 .main_donjons {
@@ -48,6 +51,7 @@ button {
   background-color: rgba(255, 255, 255, 0.25);
   padding: 20px;
   margin-bottom: 30px;
+  box-shadow: 0px 0px 2px 0.5px whitesmoke;
 }
 
 .menu {
@@ -56,8 +60,8 @@ button {
   top: 110px;
   width: 300px;
   padding: 20px;
-  padding-top: 0;
   background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 2px 0.5px whitesmoke;
 }
 
 a {
@@ -78,18 +82,19 @@ img {
   box-shadow: 0px 0px 10px 1.5px gray;
 }
 
-.imageHide {
+/* .imageHide {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
   width: 450px;
   height: 350px;
   box-shadow: 0px 0px 10px 1.5px gray;
-  background: linear-gradient(rgba(255, 255, 255, 0.25)), url(images/cendres_alar.jpg);
+  background-image: url(images/cendres_alar.jpg);
   background-size: cover;
   overflow: hidden;
-  /* display: none; */
-}
+  display: none;
+  position: relative;
+} */
 
 /* img:active {
   box-shadow: 0px 0px 10px 1.5px green;
@@ -125,39 +130,36 @@ img {
   display: none;
 }
 
-.chat {
-  border-radius: 100%;
-}
-
-#btnControl {
-  display: none;
-}
-
-#btnControl:checked + label > img {
-  width: 70px;
-  height: 74px;
-}
-
+/* evenement onclick avec alar */
 #imageOnclick {
   display: none;
 }
-
 #imageOnclick:checked + label > img {
+  width: 200px;
+  height: 200px;
   box-shadow: 0px 0px 10px 1.5px green;
-  background-color: rgba(255, 255, 255, 0.25);
 }
 
-/* pour mettre quelque chose au dessus de l'image en background */
-/* .testclass:before {
-  content: "";
-  position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
-  background: rgba(0,0,0,.5);
+/* essai transparent sur alar grâce au css et position */
+/* * {
+  box-sizing: border-box;
 } */
 
-.imageHide {
+.container {
   position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0); Fallback color */
+  background: rgba(104, 192, 104, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  /* box-sizing: border-box; */
 }
 
 .checkCircle {
